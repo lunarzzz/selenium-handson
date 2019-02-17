@@ -6,8 +6,8 @@ node{
     //}
 
     //定义mvn环境
-    def mvnHome = tool 'maven3.5.3'
-    env.PATH = "${mvnHome}/bin:${env.PATH}"
+  //  def mvnHome = tool 'maven3.5.3'
+    //env.PATH = "${mvnHome}/bin:${env.PATH}"
 
     stage('mvn test'){
         //mvn 测试
